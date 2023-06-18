@@ -17,7 +17,8 @@ public class Verify_expart_teacher_appears_in_landing_page02 extends CommonMetho
 		else
 			System.out.println("Fail");
 		Thread.sleep(10000);
-		//tearDown();
+		System.out.println("update");
+		tearDown();
 	}
 
 }
